@@ -13,7 +13,7 @@ public class Weather_bot extends AbilityBot {
     private static final String name = "MyWeatherBot";
     private WeatherParser weatherParser = new WeatherParser();
 
-    Weather_bot(String botToken, String botUsername) {
+    Weather_bot() {
         super(token, name);
     }
 
